@@ -5,8 +5,6 @@
 ![Resilience4J](https://img.shields.io/badge/Resilience4J-2.3-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
-Reusable Spring Boot retry library...
-
 Reusable Spring Boot retry library built on top of Resilience4J with annotation-driven execution, fallback strategies and auto-configuration support.
 
 ## Overview
