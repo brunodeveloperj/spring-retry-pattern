@@ -1,5 +1,10 @@
 # Spring Retry Pattern
 
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4-green)
+![Resilience4J](https://img.shields.io/badge/Resilience4J-2.3-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+
 Reusable Spring Boot retry library built on top of Resilience4J with annotation-driven execution, fallback strategies and auto-configuration support.
 
 ## Overview
