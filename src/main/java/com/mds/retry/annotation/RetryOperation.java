@@ -12,6 +12,8 @@ import java.lang.annotation.Target;
  * This annotation can be applied to methods or classes to specify retry behavior using Resilience4j's Retry mechanism.
  * </p>
  *
+ * @author MDS
+ * @since 0.0.1-SNAPSHOT
  * @see io.github.resilience4j.retry.Retry
  */
 @Documented

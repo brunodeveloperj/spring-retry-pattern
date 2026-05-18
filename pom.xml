@@ -7,16 +7,16 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>3.4.0</version>
+    <version>4.0.6</version>
     <relativePath/>
   </parent>
 
-  <groupId>com.mds.retry</groupId>
+  <groupId>com.mds</groupId>
   <artifactId>spring-retry-pattern</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>spring-retry-pattern</name>
-  <description>MDS Spring Retry Pattern Library</description>
+  <description>A reusable Spring Boot library that centralizes and standardizes retry logic using Spring Retry and Resilience4j, enabling resilient communication across services.</description>
 
   <properties>
     <!-- Java compile version -->
@@ -30,7 +30,9 @@
   </properties>
 
   <dependencies>
-    <!-- Spring Boot Libraries -->
+    <!-- ======================== -->
+    <!-- Spring Boot Base         -->
+    <!-- ======================== -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -38,26 +40,34 @@
 
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
+      <artifactId>spring-boot-starter-aspectj</artifactId>
     </dependency>
 
+    <!-- ======================== -->
+    <!-- External Libraries       -->
+    <!-- ======================== -->
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-aop</artifactId>
+      <groupId>io.github.resilience4j</groupId>
+      <artifactId>resilience4j-spring-boot3</artifactId>
+      <version>${resilience4j-spring-boot3.version}</version>
     </dependency>
 
-    <!-- External Libraries -->
+    <!-- ======================== -->
+    <!-- Optional / Provided      -->
+    <!-- ======================== -->
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <optional>true</optional>
     </dependency>
 
+    <!-- ======================== -->
+    <!-- Test                     -->
+    <!-- ======================== -->
     <dependency>
-      <groupId>io.github.resilience4j</groupId>
-      <artifactId>resilience4j-spring-boot3</artifactId>
-      <version>${resilience4j-spring-boot3.version}</version>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 

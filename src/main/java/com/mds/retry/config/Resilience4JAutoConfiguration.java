@@ -19,6 +19,9 @@ import org.springframework.context.annotation.Configuration;
  * This class reads the retry configurations from the application properties
  * and creates a map of {@link Retry} instances that can be used throughout the application.
  * </p>
+ *
+ * @author MDS
+ * @since 0.0.1-SNAPSHOT
  */
 @Configuration
 @RequiredArgsConstructor
