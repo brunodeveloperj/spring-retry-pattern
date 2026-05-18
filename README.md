@@ -1,7 +1,7 @@
 # Spring Retry Pattern
 
 ![Java](https://img.shields.io/badge/Java-21-orange)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4-green)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.0.6-brightgreen)
 ![Resilience4J](https://img.shields.io/badge/Resilience4J-2.3-blue)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
@@ -37,7 +37,7 @@ Main goals:
 ## Tech Stack
 
 * Java 21
-* Spring Boot 3.4.0
+* Spring Boot 4.0.6
 * Spring AOP
 * Maven
 * Resilience4J
@@ -51,7 +51,7 @@ Add dependency:
 
 ```xml
 <dependency>
-    <groupId>com.mds.retry</groupId>
+    <groupId>com.mds</groupId>
     <artifactId>spring-retry-pattern</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>

@@ -18,6 +18,9 @@ import org.aopalliance.intercept.MethodInvocation;
 /**
  * Interceptor that handles methods annotated with {@link RetryOperation}.
  * It uses Resilience4j's Retry mechanism to retry method executions based on the provided configuration.
+ *
+ * @author MDS
+ * @since 0.0.1-SNAPSHOT
  */
 public class RetryOperationAdvisorInterceptor implements MethodInterceptor {
 

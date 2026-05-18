@@ -16,6 +16,9 @@ import org.springframework.context.annotation.ComponentScan;
  * This class configures an advisor that intercepts method calls annotated with
  * {@link RetryOperation} and applies retry logic using Resilience4j.
  * </p>
+ *
+ * @author MDS
+ * @since 0.0.1-SNAPSHOT
  */
 @Configurable
 @ComponentScan("com.mds.retry")
